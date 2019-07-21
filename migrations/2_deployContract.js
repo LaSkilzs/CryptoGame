@@ -1,5 +1,5 @@
 const AthToken = artifacts.require("./AthToken.sol");
 
 module.exports = function(deployer) {
-  deployer.deploy(AthToken);
+  deployer.deploy(AthToken, 1000000);
 };
